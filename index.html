@@ -10,11 +10,11 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header>
+    <header class="header_style">
       <nav>
         <ul class="header_links_list">
           <li class="header_links-list-item_no-bullit">
-            <a href="" class="header_link_active"> главная </a>
+            <a href="" class="header_link header_link_active"> главная </a>
           </li>
           <li class="header_links-list-item">
             <a href="" class="header_link"> посмотреть лоты </a>
@@ -26,18 +26,18 @@
       </nav>
       <a class="header_logo">
         <img
-          src="/images/logo-black.svg"
+          src="./images/logo-black.svg"
           alt="Логотип"
           class="header_logo_img"
         />
       </a>
-      <address class="header_address">
-        <a href="tel:+99995555555" class="header_address_underline"
-          >+9 999 555 5555</a
-        >
-        <a href="mailto:info@sobaka.ge" class="header_address_underline"
-          >info@sobaka.ge</a
-        >
+      <address class="address_style header_address">
+        <a href="tel:+99995555555" class="address_underline">
+          +9 999 555 5555
+        </a>
+        <a href="mailto:info@sobaka.ge" class="address_underline">
+          info@sobaka.ge
+        </a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
@@ -53,7 +53,7 @@
           <p class="cover_description_text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="cover_button_border cover_button_text">
+          <button type="button" class="cover_button_border cover_button_text">
             Сделать ставку
           </button>
         </div>
@@ -61,39 +61,53 @@
       <section class="lots">
         <h2 class="lots_title">Лоты</h2>
         <ul class="lots_list">
-          <li class="lots_list_card lots_list_card_1">
-            <div class="overlay"></div>
-            <a class="lots_list_anchor" href="">
-              Фильм режиссёра, который бросил киношколу
-            </a>
-            <article class="lots_list_card_info">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+          <li class="lots_list_card lots_list_card_film">
+            <article class="lots_list_card_content">
+              <a class="lots_list_card_anchor" href="">
+                <div class="overlay"></div>
+                <h2 class="lots_list_title">
+                  Фильм режиссёра, который бросил киношколу
+                </h2>
+                <p class="lots_list_card_info">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </a>
             </article>
           </li>
-          <li class="lots_list_card lots_list_card_2">
-            <div class="overlay"></div>
-            <a class="lots_list_anchor" href="">
-              Книга, где описан один скучный день из жизни рекламного агента
-            </a>
-            <article class="lots_list_card_info">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
+          <li class="lots_list_card lots_list_card_book">
+            <article class="lots_list_card_content">
+              <a class="lots_list_card_anchor" href="">
+                <div class="overlay"></div>
+                <h2 class="lots_list_title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h2>
+                <p class="lots_list_card_info">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </a>
             </article>
           </li>
-          <li class="lots_list_card lots_list_card_3">
-            <div class="overlay"></div>
-            <a class="lots_list_anchor" href="">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </a>
-            <article class="lots_list_card_info">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
+          <li class="lots_list_card lots_list_card_painting">
+            <article class="lots_list_card_content">
+              <a class="lots_list_card_anchor" href="">
+                <div class="overlay"></div>
+                <h2 class="lots_list_title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h2>
+                <p class="lots_list_card_info">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </a>
             </article>
           </li>
         </ul>
@@ -102,7 +116,7 @@
       <section class="about">
         <div class="about_logo">
           <img
-            src="/images/logo-white.svg"
+            src="./images/logo-white.svg"
             alt="Логотип аукциона"
             width="148"
             height="114"
@@ -131,14 +145,14 @@
         </section>
       </section>
     </main>
-    <footer>
-      <address class="footer_address">
-        <a href="tel:+99995555555" class="header_address_underline"
-          >+9 999 555 5555</a
-        >
-        <a href="mailto:info@sobaka.ge" class="header_address_underline"
-          >info@sobaka.ge</a
-        >
+    <footer class="footer_style">
+      <address class="address_style footer_address">
+        <a href="tel:+99995555555" class="address_underline">
+          +9 999 555 5555
+        </a>
+        <a href="mailto:info@sobaka.ge" class="address_underline">
+          info@sobaka.ge
+        </a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer_nav">
@@ -154,25 +168,23 @@
           </li>
         </ul>
       </nav>
-      <div class="socials">
-        <ul class="footer_socials_list">
-          <li class="footer_socials_link">
-            <a href="">
-              <img src="./images/yt.svg" alt="Ютуб" />
-            </a>
-          </li>
-          <li class="footer_socials_link">
-            <a href="">
-              <img src="./images/vk.svg" alt="Вконтакте" />
-            </a>
-          </li>
-          <li class="footer_socials_link">
-            <a href="">
-              <img src="./images/pinterest.svg" alt="Пинтерест" />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="footer_socials_list">
+        <li>
+          <a href="">
+            <img src="./images/yt.svg" alt="Ютуб" width="48" height="48"/>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/vk.svg" alt="Вконтакте" width="48" height="48"/>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/pinterest.svg" alt="Пинтерест" width="48" height="48"/>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
