@@ -7,7 +7,7 @@ ul {
   list-style: none;
 }
 
-.address_style{
+.address_style {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -179,12 +179,12 @@ ul {
   background-position: center;
 }
 
-.lots_list_card_content{
+.lots_list_card_content {
   display: block;
   height: 100%;
 }
 
-.lots_list_card_anchor{
+.lots_list_card_anchor {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
